@@ -165,3 +165,128 @@ h1 {
 .add-to-cart:hover {
   background-color: #d94c1a;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+  background: url("flowers-bg.jpg") no-repeat center center/cover;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.subscribe-section .overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent */
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.subscribe-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.subscribe-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f15a24;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: #d94c1a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background: url("flowers.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.subscribe-form button {
+  background-color: #f15a24;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.welcome{
+  border: 2px solid red;
+  margin-left: 500px;
+  
+ 
+}
